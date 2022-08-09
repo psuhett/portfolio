@@ -21,16 +21,20 @@ body {
 }
 
 .cabecalho {
+    max-height: 150px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
     background-color: #1f1e1e4d;
 }
 
 .cabecalho-logo {
     height: 28px;
+    max-height: 150px;
 }
 
 .cabecalho-menu {
