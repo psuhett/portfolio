@@ -164,5 +164,14 @@ details[open].detalhe {
     font-size: 12px;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
 
+::-webkit-scrollbar-track {
+    background-color: #1f1d1d;
+}
 
+::-webkit-scrollbar-thumb {
+    background-color: #b122a6;
+}
