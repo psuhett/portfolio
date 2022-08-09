@@ -21,15 +21,20 @@ body {
 }
 
 .cabecalho {
-    max-height: 150px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    padding: 15px;
+    justify-content: space-between;   
     padding-left: 55px;
     padding-right: 55px;
     background-color: #1f1e1e4d;
+    height: 7%;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    border-top: 0.3px solid #ffffff34;
+    border-bottom: 0.3px solid #ffffff34;
 }
 
 .cabecalho-logo {
@@ -63,8 +68,7 @@ a:hover {
 }
 
 .conteudo {
-    border-top: 0.3px solid #ffffff34;
-    margin-bottom: 48px;
+    margin-bottom: 38px;
 }
 
 .conteudo-principal {
