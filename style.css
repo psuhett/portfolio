@@ -164,6 +164,7 @@ details[open].detalhe {
     font-size: 12px;
 }
 
+
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -178,4 +179,4 @@ details[open].detalhe {
 
 strong {
     color: #d124c3;
-}
+ }
