@@ -54,7 +54,7 @@ body {
     font-size: 18px;
 }
 
-a {
+.cabecalho-menu-item {
     color: #ffff;
     padding: 4px;
     border-radius: 6px;
@@ -62,7 +62,7 @@ a {
     transition-duration: 0.4s;
 }
 
-a:hover {
+.cabecalho-menu-item:hover {
     color: #ffffff;
     background-color: #66135f;
 }
@@ -88,6 +88,12 @@ a:hover {
     border-left:#b122a6 solid 5px ;
     border-radius: 50px;
     width: 170px;
+    cursor: pointer;
+}
+
+.conteudo-principal-eu:hover {
+    border-left:#5922b1 solid 5px ;
+    transition-duration: 0.1s;
 }
 
 .scroll {
@@ -140,6 +146,7 @@ details.detalhe {
     padding: 10px;
     border: 0.3px solid #ffffff34;
     border-radius: 4px; 
+    transition-duration: 0.4s;
 }
 
 details.detalhe:hover {
