@@ -211,22 +211,10 @@ strong {
         margin-right: 20px;
         margin-left: 20px;
     }
-
-    .escondido-item {
-    font-family: 'Sarala', sans-serif;
-    color: aliceblue;
-    font-weight: 400;
-    font-size: 18px;
-    padding: 5px;
-    }
  }
 
  @media (min-width: 999px) {
-
-    #escondido {
-        display: none;
-    }
-
+    
     .hamburger-menu {
         display: none;
     }
