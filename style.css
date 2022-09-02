@@ -187,3 +187,54 @@ details[open].detalhe {
 strong {
     color: #d124c3;
  }
+
+ .mobile-menu {
+    cursor: pointer;
+ }
+
+ .mobile-menu div {
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
+
+ @media (max-width: 999px) {
+    .conteudo-principal-logo {
+        display: none;
+    }
+    .cabecalho-logo {
+        display: none;
+    }
+    .cabecalho {
+        display: none;
+    }
+    
+    .conteudo-principal-escrito {
+        margin-left: 0;
+        align-items: center;
+    }
+    .conteudo-principal-eu {
+        margin-left: 0;
+    }
+
+    .conteudo-secundario {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .escondido-item {
+    font-family: 'Sarala', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 5px;
+    }
+ }
+
+ @media (min-width: 999px) {
+
+    #escondido {
+        display: none;
+    }
+ }
