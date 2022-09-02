@@ -187,18 +187,7 @@ details[open].detalhe {
 strong {
     color: #d124c3;
  }
-
- .mobile-menu {
-    cursor: pointer;
- }
-
- .mobile-menu div {
-    width: 30px;
-    height: 2px;
-    background: #fff;
-    margin: 8px;
-}
-
+ 
  @media (max-width: 999px) {
     .conteudo-principal-logo {
         display: none;
