@@ -49,12 +49,8 @@ body {
 
 .cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
-    color: aliceblue;
     font-weight: 400;
     font-size: 18px;
-}
-
-.cabecalho-menu-item {
     color: #ffff;
     padding: 4px;
     border-radius: 6px;
@@ -62,9 +58,14 @@ body {
     transition-duration: 0.4s;
 }
 
-.cabecalho-menu-item:hover {
-    color: #ffffff;
-    background-color: #66135f;
+.cabecalho-menu-item:hover::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 2px;
+    top: 0.5px;
+    background: #d124c3;
 }
 
 .conteudo {
