@@ -1,0 +1,117 @@
+.sobre-bg {
+    height: 100vh;
+    background-color: #161616;
+    border-top: 1px solid #fff;
+    position: relative;
+}
+.sobre{
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    gap: 30px;
+}
+
+.scroll{
+    color: #006ea1;
+    top: -17px;
+    left: 50%;
+    position: absolute;
+    opacity: 0.20;
+}
+.scroll img{
+    width: 30px;
+    animation: scroll-down 3s infinite forwards;
+}
+@keyframes scroll-down {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, -15px, 0);
+    }
+    30% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translate3d(0, 10px, 0);
+    }
+  }
+
+.sobre-img{
+    width: 30%;
+    border-left: 4px solid #68cfff;
+    border-radius: 98% 2% 100% 0% / 16% 84% 16% 84%;
+    transition: 0.3s;
+}
+.sobre-img img{
+    border-radius: 98% 2% 100% 0% / 16% 84% 16% 84%;
+}
+.sobre-img:hover{
+    transform: scale(102%); 
+    border-left: 4px solid #006ea1;
+}
+.sobre-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px;
+    line-height: 1.2rem;
+}
+.sobre-info h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.sobre-info h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.sobre-info p{
+    font-family: 'Poppins', sans-serif;
+    max-width: 700px;
+}
+.sobre-btn{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+.sobre-btn a{
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #68cfff;
+    padding: 8px 22px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.sobre-btn a:hover{
+    transform: scale(102%); 
+    background-color: #222222;
+}
+.sobre-info span{
+    color: #68cfff;
+}
+
+
+@media (max-width:800px){
+    .sobre {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sobre-btn{
+        margin: 1rem auto;
+    }
+    .subtitulo-1{
+        display: none;
+    }
+}
+
+@media (max-width:540px){
+    .sobre-img{
+        width: 40%;
+    }
+}

@@ -1,0 +1,66 @@
+.apresentacao-bg{
+    background-image: url(../../img/code-backgroud.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+}
+.apresentacao-container {
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+.apresentacao-escrita{
+    text-align: center;
+}
+.apresentacao-escrita h1{
+    color: #ffffff;
+    font-size: 55px;
+    margin-bottom: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+.apresentacao-escrita h3{
+    color: #acacac;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif
+}
+.apresentacao-escrita h3::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca 0.7s infinite;
+}
+
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+  @media (max-width:800px){
+    .apresentacao-escrita h1{
+        font-size: 35px;
+    }
+    .apresentacao-escrita h3{
+        font-size: 30px;
+    }
+  }
+  @media (max-width:540px){
+    .apresentacao-bg{
+        height: 85vh;
+    }
+    .apresentacao-container{
+        height: 75vh;
+    }
+    .apresentacao-escrita h1{
+        font-size: 30px;
+    }
+    .apresentacao-escrita h3{
+        font-size: 25px;
+    }
+  }
