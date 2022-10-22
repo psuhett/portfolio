@@ -112,6 +112,6 @@
 
 @media (max-width:540px){
     .sobre-img{
-        width: 40%;
+        display: none;
     }
 }

@@ -1,10 +1,10 @@
 .apresentacao-bg{
     background-image: url(../../img/code-backgroud.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
-    height: 90vh;
+    height: 95vh;
 }
 .apresentacao-container {
     height: 90vh;
@@ -53,6 +53,7 @@
   @media (max-width:540px){
     .apresentacao-bg{
         height: 85vh;
+        background-position: -15px;
     }
     .apresentacao-container{
         height: 75vh;
