@@ -71,5 +71,5 @@ class MobileNavbar {
   ScrollReveal().reveal('.apresentacao-escrita-item', {delay: 300, origin:'left', distance: '60px'});
   ScrollReveal().reveal('.sobre .sobre-img', {delay: 500, origin:'top', distance: '60px'});
   ScrollReveal().reveal('.sobre-info', {delay: 400, origin:'bottom', distance: '60px'});
-  ScrollReveal().reveal('.sobre-btn', {delay: 600, origin:'top', distance: '60px'});
+  ScrollReveal().reveal('.sobre-btn', {delay: 500, origin:'top', distance: '60px'});
   ScrollReveal().reveal('.projeto li', {delay: 400, origin:'left', distance: '60px', interval: 200});
