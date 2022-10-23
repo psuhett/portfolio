@@ -1,8 +1,6 @@
 @import "./global/global.css";
-@import "./global/header.css";
 @import "apresentação/apresentacao.css";
 @import "./sobre/sobre.css";
 @import "projetos/projetos.css";
 @import "footer/footer.css";
 @import "global/menu-moba.css";
-
