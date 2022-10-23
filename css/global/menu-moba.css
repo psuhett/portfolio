@@ -43,6 +43,9 @@ header{
     text-transform: uppercase;
     letter-spacing: 4px;
   }
+  .logo span{
+    color: #68cfff;
+  }
   
   nav {
     display: flex;
