@@ -68,8 +68,20 @@ class MobileNavbar {
     delay: 400
   }); 
 
-  ScrollReveal().reveal('.apresentacao-escrita-item', {delay: 300, origin:'left', distance: '60px'});
+  ScrollReveal().reveal('.top', {delay: 300, origin:'top', distance: '60px'});
   ScrollReveal().reveal('.sobre .sobre-img', {delay: 500, origin:'top', distance: '60px'});
   ScrollReveal().reveal('.sobre-info', {delay: 400, origin:'bottom', distance: '60px'});
   ScrollReveal().reveal('.sobre-btn', {delay: 500, origin:'top', distance: '60px'});
   ScrollReveal().reveal('.projeto li', {delay: 400, origin:'left', distance: '60px', interval: 200});
+
+  /*modal*/
+
+  const modal = document.querySelector('.modal-container')
+
+  function openModal(){
+   modal.classList.add('activeModal')
+  }
+
+  function closeModal(){
+   modal.classList.remove('activeModal')
+  }

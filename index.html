@@ -25,15 +25,31 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
+            <li><a class="pointer" onclick="openModal()">Contato</a></li>
           </ul>
         </nav>
       </header>
+    <div class="modal-container">
+      <div class="modal">
+        <h2>Contatos</h2>
+        <hr>
+        <span class="modal-span">
+          <a href="https://github.com/psuhett"><img src="img/github.svg" alt=""></a>
+          <a href="https://www.instagram.com/_paulosuhett/"><img src="img/instagram.svg" alt=""></a>
+          <a href="https://www.linkedin.com/in/paulo-suhett-007b8b247"><img src="img/linkedin-2.svg" alt=""></a>
+          <a href="mailto:paulosuhett@gmail.com"><img src="img/email.svg" alt=""></a>
+        </span>
+        <hr>
+        <div class="btn-op-cl">
+          <button class="btnCL" onclick="closeModal()">Close</button>
+        </div>
+      </div>
+    </div>
 
     <section class="apresentacao-bg" id="home">
         <div class="container apresentacao-container">
             <div class="apresentacao-escrita">
-                <h1 class="apresentacao-escrita-item">Olá, eu sou Paulo Suhett</h1>
+                <h1 class="apresentacao-escrita-item top">Olá, eu sou Paulo Suhett</h1>
                 <h3 class="apresentacao-escrita-item escrever">Desenvolvedor Front-end</h3>
             </div>
         </div>
@@ -48,7 +64,8 @@
             <div class="sobre-info">
                 <h1>sobre mim</h1>
                 <h2>nova-iguaçu, rio de janeiro</h2>
-                <p>Olá, me chamo <span>Paulo Suhett</span>, est prestes a entrar em uma faculdade de <span>T.I</span>, sempre fui apaixonado por tecnologia e sendo assim quis seguir nesse caminho, comecei estudando <span>HTML5 e CSS3</span> no youtube e depois fui conhecendo cursos pagos e fazendo aqueles que me chamavam a atenção ou os que me recomendavam. Em breve estarei estudando mais sobre <span>javascript</span>, <span>nodejs</span>, <span>react</span> e alguns frameworks.</p>
+                <p>Olá, me chamo Paulo Suhett, tenho 17 anos, sou apaixonado por tecnologia desde sempre, então quero seguir nesse caminho, trilhando pela programação, quero me tornar um programador <span>Front-end</span> e seguir carreira para um dia me tornar <span>Full-Stack</span>, logo mais estarei entrando em uma faculdade de <span>T.I</span> e mais à frente <span>Engenharia de Software</span>.
+                Comecei estudando <span>HTML5</span> e <span>CSS3</span>, estou entrando em <span>javascript</span> e após isso irei estudar alguns <span>frameworks</span>.</p>
                 
                 <div class="sobre-btn">
                     <a href="mailto:paulosuhett@gmail.com" target="_blank">Email</a>
@@ -97,7 +114,7 @@
         </div>
     </section>
 
-    <footer class="footer-bg" id="contato">
+    <footer class="footer-bg">
         <div class="footer container">
             <h1>Todos os direitos reservados - Paulo Suhett.</h1>
             <div class="footer-redes">

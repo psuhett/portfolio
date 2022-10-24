@@ -1,0 +1,94 @@
+  .modal-container{
+    width: 100%;
+    position: fixed;
+    top: 30px;
+    z-index: 999;
+    justify-content: center;
+    display: none;
+  }
+  
+  .modal{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 25%;
+  }
+  
+  .activeModal{
+    display: flex;
+  }
+  .activeModal .modal{
+    animation: modal .5s;
+  }
+  
+  @keyframes modal  {
+    from{
+      opacity: 0;
+      transform: translate3d(0, -60px, 0);
+    }
+    to{
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .modal h2{
+    text-align: center;
+  }
+  .modal-span{
+    display: flex;
+    gap: 25px;
+    margin: 10px auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .btn-modal{
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .btn-op-cl{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .btn-op-cl button{
+    font-size: medium;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+  }
+  
+  .btnCL{
+    background-color: #d80b0b !important;
+    transition: .2s;
+  }
+  .btnCL:hover{
+    background-color: #af0707 !important;
+  }
+  
+  @media (max-width:999px){
+    .modal{
+      padding: 10px;
+      width: 40%;
+    }
+    span, .btn-op-cl button{
+      font-size: smaller;
+    }
+  }
+
+  @media (max-width:540px){
+    .modal{
+      padding: 10px;
+      width: 55%;
+    }
+    span, .btn-op-cl button{
+      font-size: smaller;
+    }
+  }
