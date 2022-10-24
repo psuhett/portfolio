@@ -77,11 +77,10 @@ class MobileNavbar {
   /*modal*/
 
   const modal = document.querySelector('.modal-container')
-
+  
   function openModal(){
-   modal.classList.add('activeModal')
+    modal.classList.add('activeModal')
   }
-
   function closeModal(){
    modal.classList.remove('activeModal')
   }

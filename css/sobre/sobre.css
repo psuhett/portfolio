@@ -65,7 +65,7 @@
 }
 .sobre-info h2{
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 1.225rem;
 }
 .sobre-info p{
     font-family: 'Poppins', sans-serif;
@@ -80,9 +80,9 @@
 .sobre-btn a{
     margin-top: 10px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Poppins', sans-serif;
-    border: 2px solid #68cfff;
+    border: 2px solid#68cfff;
     padding: 8px 22px;
     border-radius: 5px;
     transition: 0.3s;

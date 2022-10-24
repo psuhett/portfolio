@@ -13,16 +13,6 @@ header{
 .menu a{
     position: relative;
 }
-.menu a::after {
-    content: '';
-    display: block;
-    height: 2px;
-    width: 0px;
-    background: #fff;
-    margin-top: 4px;
-    transition: 0.3s;
-    position: absolute;
-}
 
 .nav-list a{
     position: relative;
@@ -43,7 +33,7 @@ header{
 }
   
   .logo {
-    font-size: 24px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 4px;
   }

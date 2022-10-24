@@ -17,13 +17,13 @@
 }
 .apresentacao-escrita h1{
     color: #ffffff;
-    font-size: 55px;
+    font-size: 3.43rem;
     margin-bottom: 12px;
     font-family: 'Poppins', sans-serif;
 }
 .apresentacao-escrita h3{
     color: #acacac;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: 'Roboto', sans-serif
 }
 .apresentacao-escrita h3::after{
@@ -44,10 +44,10 @@
 
   @media (max-width:800px){
     .apresentacao-escrita h1{
-        font-size: 35px;
+        font-size: 2.18rem;
     }
     .apresentacao-escrita h3{
-        font-size: 30px;
+        font-size: 1.875rem;
     }
   }
   @media (max-width:540px){
@@ -59,9 +59,9 @@
         height: 75vh;
     }
     .apresentacao-escrita h1{
-        font-size: 30px;
+        font-size: 1.875rem;
     }
     .apresentacao-escrita h3{
-        font-size: 25px;
+        font-size: 1.56rem;
     }
   }

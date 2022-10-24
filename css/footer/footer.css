@@ -10,20 +10,10 @@
     flex-direction: column;
 }
 .footer h1{
-    margin-bottom: 2rem;
     border-bottom: 1px solid #fff;
     padding-bottom: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
-}
-.footer-redes{
-    display: flex;
-    max-width: 100%;
-    gap: 30px;
-}
-
-.footer-redes a:hover{
-    transform: scale(105%); 
 }
 @media (max-width:620px){
     .footer{

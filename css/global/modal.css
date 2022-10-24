@@ -33,7 +33,15 @@
       transform: translate3d(0, 0, 0);
     }
   }
+
+  .modal-span a:hover{
+    transform: scale(105%); 
+  } 
+
   .modal h2{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
     text-align: center;
   }
   .modal-span{
@@ -68,10 +76,20 @@
   .btnCL{
     background-color: #d80b0b !important;
     transition: .2s;
+    animation: pisca2 0.9s infinite;
   }
   .btnCL:hover{
     background-color: #af0707 !important;
   }
+
+  @keyframes pisca2{
+    0%, 100%{
+        transform: rotate(-3deg);
+    }
+    50%{
+      transform: rotate(3deg);
+    }
+}
   
   @media (max-width:999px){
     .modal{
