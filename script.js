@@ -1,3 +1,5 @@
+// efeito maquina de escrever - apresentação
+
 function typeWriter(elemento){
     const textoArray = elemento.innerHTML.split('');
     elemento.innerHTML = '';
@@ -12,7 +14,7 @@ typeWriter(titulo)
 
 
 
-/*menu-moba*/
+// menu moba 
 
 class MobileNavbar {
     constructor(mobileMenu, navList, navLinks) {
@@ -60,7 +62,7 @@ class MobileNavbar {
   mobileNavbar.init();
 
 
-  /*animações*/
+// animações gerais
 
   ScrollReveal({ 
     reset: true,
@@ -69,12 +71,12 @@ class MobileNavbar {
   }); 
 
   ScrollReveal().reveal('.top', {delay: 300, origin:'top', distance: '60px'});
-  ScrollReveal().reveal('.sobre .sobre-img', {delay: 500, origin:'top', distance: '60px'});
+  ScrollReveal().reveal('.sobre .sobre-img', {delay: 400, origin:'top', distance: '60px'});
   ScrollReveal().reveal('.sobre-info', {delay: 400, origin:'bottom', distance: '60px'});
-  ScrollReveal().reveal('.sobre-btn', {delay: 500, origin:'top', distance: '60px'});
+  ScrollReveal().reveal('.sobre-btn', {delay: 450, origin:'top', distance: '60px'});
   ScrollReveal().reveal('.projeto li', {delay: 400, origin:'left', distance: '60px', interval: 200});
 
-  /*modal*/
+// modal
 
   const modal = document.querySelector('.modal-container')
   

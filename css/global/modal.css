@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     padding: 30px;
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     border-radius: 10px;
     width: 25%;
   }
@@ -76,9 +76,9 @@
   .btnCL{
     background-color: #d80b0b !important;
     transition: .2s;
-    animation: pisca2 0.9s infinite;
   }
   .btnCL:hover{
+    animation: pisca2 0.9s infinite;
     background-color: #af0707 !important;
   }
 

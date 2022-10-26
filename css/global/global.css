@@ -46,6 +46,9 @@ a {
     background-color: #fff;
     border-radius: 5px;
 }
+::selection {
+    background-color: #8968ffc4;
+  }
 html{
     scroll-behavior: smooth;
 }
