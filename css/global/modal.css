@@ -65,21 +65,23 @@
     margin-top: 10px;
   }
   .btn-op-cl button{
-    font-size: medium;
+    font-size: 1.2rem;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
-    color: aliceblue;
+    color: #000;
     cursor: pointer;
+    border: 2px solid #3f3f3f;
+    background-color: #f0f8ff;
   }
   
   .btnCL{
-    background-color: #d80b0b !important;
     transition: .2s;
   }
   .btnCL:hover{
     animation: pisca2 0.9s infinite;
-    background-color: #af0707 !important;
+    background-color: #af0707a9 !important;
+    color: #fff;
   }
 
   @keyframes pisca2{

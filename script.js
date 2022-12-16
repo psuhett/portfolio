@@ -70,7 +70,7 @@ class MobileNavbar {
     delay: 400
   }); 
 
-  ScrollReveal().reveal('.top', {delay: 300, origin:'top', distance: '60px'});
+  ScrollReveal().reveal('.top', {delay: 200, origin:'top', distance: '60px'});
   ScrollReveal().reveal('.sobre .sobre-img', {delay: 400, origin:'top', distance: '60px'});
   ScrollReveal().reveal('.sobre-info', {delay: 400, origin:'bottom', distance: '60px'});
   ScrollReveal().reveal('.sobre-btn', {delay: 450, origin:'top', distance: '60px'});
