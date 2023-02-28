@@ -1,7 +1,7 @@
   .modal-container{
     width: 100%;
     position: fixed;
-    top: 30px;
+    top: 30%;
     z-index: 999;
     justify-content: center;
     display: none;
