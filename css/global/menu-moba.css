@@ -22,7 +22,7 @@ header{
     display: block;
     height: 2px;
     width: 0px;
-    background: #fff;
+    background: #00CC6A;
     margin-top: 4px;
     transition: 0.3s;
     position: absolute;
@@ -38,14 +38,14 @@ header{
     letter-spacing: 4px;
   }
   .logo span{
-    color: #68cfff;
+    color: #00CC6A;
   }
   
   nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #00CC6A;
     background: #161616;
     height: 8vh;
   }

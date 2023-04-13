@@ -1,6 +1,6 @@
 .projetos-bg{
     background-color: #1d1d1d;
-    border-top: 1px solid #fff;
+    border-top: 1px solid #00CC6A;
     position: relative;
 }
 .projeto {
@@ -29,12 +29,12 @@
 .projeto img {
     max-width: 100%;
     margin-bottom: 16px;
-    border-left: 4px solid #68cfff;
+    border-left: 4px solid #00CC6A;
     transition: 0.3s;
 }
 .projeto img:hover{
     transform: scale(102%); 
-    border-left: 4px solid #006ea1;
+    border-left: 4px solid #005c2f;
 }
 
 .projeto h3 {
