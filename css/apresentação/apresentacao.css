@@ -52,8 +52,8 @@
   }
   @media (max-width:540px){
     .apresentacao-bg{
-        height: 85vh;
-        background-position: -15px;
+        background-image: none;
+        background-color: #1d1d1d;
     }
     .apresentacao-container{
         height: 75vh;
